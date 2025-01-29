@@ -1,7 +1,7 @@
 version: "3.8"
 services:
- mental-health-app-dev:
-  container_name: mental-health-app-dev
+ dev:
+  container_name: dev
   build:
    context: .
    dockerfile: Dockerfile.dev
