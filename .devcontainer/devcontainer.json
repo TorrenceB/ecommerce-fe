@@ -1,0 +1,28 @@
+{
+	"name": "dev",
+	"dockerComposeFile": "../docker-compose.yaml",
+	"service": "dev",
+	"workspaceFolder": "/app",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"bradlc.vscode-tailwindcss",
+				"ms-vscode.vscode-typescript-next"
+			],
+			"settings": {
+				"editor.formatOnSave": true,
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"editor.codeActionsOnSave": {
+					"source.fixAll.eslint": true
+				}
+			}
+		}
+	},
+	"forwardPorts": [3000],
+	"postCreateCommand": "npm install",
+	"postStartCommand": "npm run build",
+	// Comment out the next line to run as root instead
+	"updateRemoteUserUID": true
+}
