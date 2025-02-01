@@ -1,8 +1,8 @@
 {
-	"name": "dev",
+	"name": "Frontend Development Container",
 	"dockerComposeFile": "../docker-compose.yaml",
-	"service": "dev",
-	"workspaceFolder": "/workspace",
+	"service": "fe-dev",
+	"workspaceFolder": "/app",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -22,7 +22,6 @@
 	},
 	"forwardPorts": [3000],
 	"postCreateCommand": "npm install",
-	"remoteUser": "node",
 	// Comment out the next line to run as root instead
 	"updateRemoteUserUID": true
 }

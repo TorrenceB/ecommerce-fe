@@ -1,9 +1,10 @@
 services:
- frontend-dev:
-  container_name: dev
+ fe-dev:
+  container_name: fe-dev
   image: mcr.microsoft.com/devcontainers/typescript-node
   volumes:
-   - ..:/workspace:cached
+   - .:/app:cached
+   - /app/node_modules
   ports:
    - "3000:3000"
   environment:
