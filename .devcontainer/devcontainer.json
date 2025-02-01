@@ -2,7 +2,7 @@
 	"name": "dev",
 	"dockerComposeFile": "../docker-compose.yaml",
 	"service": "dev",
-	"workspaceFolder": "/app",
+	"workspaceFolder": "/workspace",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -22,7 +22,7 @@
 	},
 	"forwardPorts": [3000],
 	"postCreateCommand": "npm install",
-	"postStartCommand": "npm run build",
+	"remoteUser": "node",
 	// Comment out the next line to run as root instead
 	"updateRemoteUserUID": true
 }
