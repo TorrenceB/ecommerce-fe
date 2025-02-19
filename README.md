@@ -1,8 +1,8 @@
-# Unnamed Men's Mental Health Application
+# E-commerce Frontend
 
 ### About
 
-A platform targeted specifically at men ages 25 - 40 to help foster personal growth and well-being, connect with other men and provides an approachable method for improving their lives.
+Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment.
 
 ### Features
 
@@ -11,18 +11,6 @@ A platform targeted specifically at men ages 25 - 40 to help foster personal gro
    Basic authentication (email/password)  
    Simple profile with basic info  
    Privacy settings
-
-2. **Wellness Tracking**
-
-   Daily mood check-in with optional note  
-   3-4 basic habit tracking options (sleep, exercise, meditation)  
-   Basic weekly/monthly visualization
-
-3. **Community**
-
-   Anonymous forum with basic categories  
-   Simple post and comment functionality  
-   Basic content moderation flags
 
 ### Demonstrated Skills
 
@@ -37,5 +25,5 @@ A platform targeted specifically at men ages 25 - 40 to help foster personal gro
 4. **Frontend**
    - Authentication
    - Complex State Management
-
-### Docker Setup
+5. **LLM Engineering**
+   - Custom Recommendations
