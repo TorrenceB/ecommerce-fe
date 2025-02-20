@@ -2,7 +2,7 @@
 
 <!-- Intro Image -->
 <div>
-   <img src="./public/images/store-abstract.jpg" alt="Store Abstract Image">
+   <img src="./public/images/store-abstract.jpg" alt="Store Abstract Image" style="width: 65%" >
 </div>
 
 Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment processing:
