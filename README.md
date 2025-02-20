@@ -52,12 +52,6 @@ The actual product line is TBD, this project is meant to be Engineering focused 
 
 ## Backend
 
-**Models**
-
-```
-
-```
-
 ## Development
 
 ## Demonstrated Skills
