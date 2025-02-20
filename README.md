@@ -16,7 +16,17 @@ Full-Scale E-commerce platform that demonstrates use of authentication, customiz
 5. **LLM Engineering**
    - Custom Recommendations
 
+The actual product line is TBD, this project is meant to be Engineering focused but I plan on polishing the content at a later time. For now the product data will be mocked and stored in a PostgreSQL database.
+
 ## Features
+
+- Authentication with JWT
+- Simple User Profile
+- Shopping Cart
+- Responsive Design
+- Full Product Detail
+- Simple Product Search and Filtering
+- LLM Powered Product Recommendations
 
 ## Architecture
 
@@ -26,8 +36,9 @@ Full-Scale E-commerce platform that demonstrates use of authentication, customiz
 - **Frontend:** React,Next.js, TailwindCSS
 - **API:** Express.js
 - **Database:** SQL,PostgreSQL
-- **Infrastructure:** Digital Ocean Droplet - Ubuntu, Docker
-- **CI/CD\*:** Github Actions
+- **Server:** Ubuntu
+- **Infrastructure & Hosting:** Digital Ocean, Docker
+- **CI/CD:** Github Actions
 
 ## Frontend
 
