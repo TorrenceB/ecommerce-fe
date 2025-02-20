@@ -1,18 +1,8 @@
-# E-commerce Frontend
+# E-commerce
 
-### About
+## Overview
 
-Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment.
-
-### Features
-
-1. **User Management & Profile**
-
-   Basic authentication (email/password)  
-   Simple profile with basic info  
-   Privacy settings
-
-### Demonstrated Skills
+Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment:
 
 1. **DevOps**
    - Containerization
@@ -27,3 +17,13 @@ Full-Scale E-commerce platform that demonstrates use of authentication, customiz
    - Complex State Management
 5. **LLM Engineering**
    - Custom Recommendations
+
+## Architecture
+
+## Frontend
+
+## Backend
+
+## Development
+
+## Demonstrated Skills
