@@ -1,5 +1,10 @@
 # Full Stack E-commerce Platform
 
+<!-- Intro Image -->
+<div>
+   <img src="./public/images/store-abstract.jpg" alt="Store Abstract Image">
+</div>
+
 Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment processing:
 
 1. **DevOps**
@@ -37,12 +42,21 @@ The actual product line is TBD, this project is meant to be Engineering focused 
 - **API:** Express.js
 - **Database:** SQL,PostgreSQL
 - **Server:** Ubuntu
+- **Testing:** Jest
 - **Infrastructure & Hosting:** Digital Ocean, Docker
 - **CI/CD:** Github Actions
+
+## Getting Started
 
 ## Frontend
 
 ## Backend
+
+**Models**
+
+```
+
+```
 
 ## Development
 
