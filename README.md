@@ -1,6 +1,6 @@
 # E-commerce
 
-## Overview
+### Overview
 
 Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment:
 
@@ -18,12 +18,12 @@ Full-Scale E-commerce platform that demonstrates use of authentication, customiz
 5. **LLM Engineering**
    - Custom Recommendations
 
-## Architecture
+### Architecture
 
-## Frontend
+### Frontend
 
-## Backend
+### Backend
 
-## Development
+### Development
 
-## Demonstrated Skills
+### Demonstrated Skills
