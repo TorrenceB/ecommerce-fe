@@ -1,8 +1,6 @@
-# E-commerce
+# Full Stack E-commerce Platform
 
-### Overview
-
-Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment:
+Full-Scale E-commerce platform that demonstrates use of authentication, customized recommendations and payment processing:
 
 1. **DevOps**
    - Containerization
@@ -18,12 +16,23 @@ Full-Scale E-commerce platform that demonstrates use of authentication, customiz
 5. **LLM Engineering**
    - Custom Recommendations
 
-### Architecture
+## Features
 
-### Frontend
+## Architecture
 
-### Backend
+**Tech Stack**
 
-### Development
+- **Design:** Figma
+- **Frontend:** React,Next.js, TailwindCSS
+- **API:** Express.js
+- **Database:** SQL,PostgreSQL
+- **Infrastructure:** Digital Ocean Droplet - Ubuntu, Docker
+- **CI/CD\*:** Github Actions
 
-### Demonstrated Skills
+## Frontend
+
+## Backend
+
+## Development
+
+## Demonstrated Skills
