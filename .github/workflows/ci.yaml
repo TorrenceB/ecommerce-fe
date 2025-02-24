@@ -35,6 +35,7 @@ jobs:
       host: ${{ secrets.HOST }}
       username: ${{ secrets.USERNAME }}
       key: ${{ secrets.SSH_KEY }}
+      password: ${{ secrets.PASSWORD }}
       script: |
        cd /var/www/ecommerce
        git pull
