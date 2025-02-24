@@ -27,3 +27,17 @@ jobs:
    - run: npm ci
    - run: npm run build --if-present
    - run: npm test
+
+   - name: Deploy App to Server
+     if: github.ref == 'refs/heads/main'
+     uses: appleboy/ssh-action@v0.1.5
+     with:
+      host: ${{ secrets.HOST }}
+      username: ${{ secrets.USERNAME }}
+      key: ${{ secrets.SSH_KEY }}
+      script: |
+       cd /var/www/ecommerce
+       git pull
+       npm install
+       npm run build
+       pm2 restart ecommerce
